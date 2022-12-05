@@ -9,3 +9,7 @@ You can include this code in your web application to allow users to use only str
 ### Live demonstrator:
 
 https://pwdchecker.pythonanywhere.com/
+
+### Installation
+
+pip install -r requirements.txt
