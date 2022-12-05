@@ -1,8 +1,8 @@
-from flask import Flask, render_template, flash, redirect, url_for, request
+from flask import Flask, render_template, request
 from api_speaker import get_hashes
 from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField, PasswordField
-from wtforms.validators import InputRequired, Email, Length, DataRequired
+from wtforms import SubmitField, PasswordField
+from wtforms.validators import DataRequired
 import secrets
 import hashlib
 
