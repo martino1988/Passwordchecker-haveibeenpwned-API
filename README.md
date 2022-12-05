@@ -12,4 +12,5 @@ https://pwdchecker.pythonanywhere.com/
 
 ### Installation
 
-pip install -r requirements.txt
+<pre><code>Tpip install -r requirements.txt</code></pre>
+
