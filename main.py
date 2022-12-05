@@ -28,13 +28,8 @@ def index():
   form.submit.label.text = "Check password"
   if request.method == 'POST':
     password_to_check = form.password.data
-    encoded_str = password_to_check.encode()
-    hash_obj = hashlib.sha1(encoded_str)
-    hexa_value = hash_obj.hexdigest()
-    first5 = hexa_value[:5]
-    last = hexa_value[5:]
 
-    result = get_hashes(first5, last)
+    result = get_hashes(password_to_check)
     if result:
       return render_template('result.html', text=result)
     else:
