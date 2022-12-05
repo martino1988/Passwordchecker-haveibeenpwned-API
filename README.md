@@ -12,7 +12,9 @@ https://pwdchecker.pythonanywhere.com/
 
 ### Installation
 
-<pre><code> git clone https://github.com/martino1988/PwdChecker-haveibeenpwned-API.git </code></pre>
+<pre><code> git clone https://github.com/martino1988/PwdChecker-haveibeenpwned-API.git
 
-<pre><code> pip install -r requirements.txt </code></pre>
+cd PwdChecker-haveibeenpwned-API
+
+pip install -r requirements.txt </code></pre>
 
