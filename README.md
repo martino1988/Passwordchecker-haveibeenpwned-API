@@ -4,7 +4,7 @@ A sha1 hash of the password is generated and the first 5 digits from the hash ar
 
 All hashes starting with these 5 digits are received to check if the given password is among the already known data-breaches.
 
-you can include this code in your web application to allow users to use only strong passwords.
+You can include this code in your web application to allow users to use only strong passwords.
 
 ### Live demonstrator:
 
