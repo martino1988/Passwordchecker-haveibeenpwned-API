@@ -36,15 +36,12 @@ def index():
 
     result = get_hashes(first5, last)
     if result:
-      return redirect(url_for('result', text=result))
+      return render_template('result.html', text=result)
     else:
       result = "0"
-      return redirect(url_for('result', text=result))
+      return render_template('result.html', text=result)
   return render_template("index.html", form=form)
 
-@app.route('/result/<text>', methods=['GET', 'POST'])
-def result(text):
-  return render_template('result.html', text=text)
 
 
 app.run(host='0.0.0.0', port=81)
